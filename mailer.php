@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Email headers.
     $headers = "From: your_email@example.com\r\n"; // Update with your sender email
-    $headers .= "Reply-To: paulupamanyu@gmail.com\r\n";
+    $headers .= "Reply-To: your_email@example.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
