@@ -10,14 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Recipient email address.
-    $to = "paulupamanyu@gmail.com";  // Change to your recipient email
+    $to = "sen.birajsen@gmail.com";  // Change to your recipient email
 
     // Email subject.
     $subject = "Personalized Message from $name";
 
     // Email headers.
-    $headers = "From: paulupamanyu@gmail.com\r\n"; // Update with your sender email
-    $headers .= "Reply-To: paulupamanyu@gmail.com\r\n";
+    $headers = "From: sen.birajsen@gmail.com\r\n"; // Update with your sender email
+    $headers .= "Reply-To: sen.birajsen@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
