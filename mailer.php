@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $subject = "Personalized Message from $name";
 
     // Email headers.
-    $headers = "From: sen.birajsen@gmail.com\r\n"; // Update with your sender email
+    $headers = "From: jhumasen.js@gmail.com\r\n"; // Update with your sender email
     $headers .= "Reply-To: sen.birajsen@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
